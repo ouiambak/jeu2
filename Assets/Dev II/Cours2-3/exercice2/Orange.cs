@@ -19,7 +19,7 @@ public class Orange : Fruit
         
     }
 
-    public void SquirtJuice()
+    private void SquirtJuice()
     {
         Debug.Log("What a mess");
     }
