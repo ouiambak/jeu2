@@ -15,9 +15,6 @@ public class SphereColorLerp : MonoBehaviour
     {
         float t = Mathf.Clamp01(elapsedTime / duration);
         rend.material.color = Color.Lerp(Color.black, Color.red, t);
-        if (elapsedTime < duration)
-        {
-            elapsedTime += Time.deltaTime;
-        }
+        
     }
 }
