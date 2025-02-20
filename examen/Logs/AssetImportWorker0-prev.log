@@ -1,0 +1,484 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.29f1 (204d6dc9ae1c) revision 2116973'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'fr' Physical Memory: 32479 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/oubakhouche/Jeu2/jeu2/examen
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+48524
+Successfully changed project path to: C:/Users/oubakhouche/Jeu2/jeu2/examen
+C:/Users/oubakhouche/Jeu2/jeu2/examen
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6644] Host "[IP] 172.16.33.8 [Port] 0 [Flags] 2 [Guid] 609295263 [EditorId] 609295263 [Version] 1048832 [Id] WindowsEditor(7,RES030) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6644] Host "[IP] 172.16.33.8 [Port] 0 [Flags] 2 [Guid] 609295263 [EditorId] 609295263 [Version] 1048832 [Id] WindowsEditor(7,RES030) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 66.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1 (204d6dc9ae1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oubakhouche/Jeu2/jeu2/examen/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x9bc5)
+    Vendor:   Intel
+    VRAM:     16239 MB
+    Driver:   31.0.101.2115
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005712 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.563 seconds
+Domain Reload Profiling:
+	ReloadAssembly (564ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (395ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005727 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\oubakhouche\Jeu2\jeu2\examen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oubakhouche\Jeu2\jeu2\examen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.995 seconds
+Domain Reload Profiling:
+	ReloadAssembly (996ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (771ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.4 KB). Loaded Objects now: 3513.
+Memory consumption went from 107.4 MB to 107.4 MB.
+Total: 3.276900 ms (FindLiveObjects: 0.340000 ms CreateObjectMapping: 0.264400 ms MarkObjects: 2.566200 ms  DeleteObjects: 0.105500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 536689.209532 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(c375f09a4e7b9fd4bb38f0312b9d715f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(c375f09a4e7b9fd4bb38f0312b9d715f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434fec97b085e07d30e0f38c68d6928c') in 0.006820 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (21.9 KB). Loaded Objects now: 3513.
+Memory consumption went from 46.0 MB to 46.0 MB.
+Total: 3.277300 ms (FindLiveObjects: 0.280200 ms CreateObjectMapping: 0.253400 ms MarkObjects: 2.678900 ms  DeleteObjects: 0.063700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.315122 seconds.
+  path: Assets/Examen Pratique.unitypackage
+  artifactKey: Guid(b3e64ea717d52384e9c651700c133ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Examen Pratique.unitypackage using Guid(b3e64ea717d52384e9c651700c133ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d97edfd3ccaa51d2787b7a3413a272') in 0.034169 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008060 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\oubakhouche\Jeu2\jeu2\examen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oubakhouche\Jeu2\jeu2\examen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.898 seconds
+Domain Reload Profiling:
+	ReloadAssembly (899ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (655ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (22.0 KB). Loaded Objects now: 3523.
+Memory consumption went from 112.1 MB to 112.0 MB.
+Total: 2.703100 ms (FindLiveObjects: 0.224000 ms CreateObjectMapping: 0.141800 ms MarkObjects: 2.318800 ms  DeleteObjects: 0.017700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 57.028741 seconds.
+  path: Assets/Dev II/Cours10
+  artifactKey: Guid(c890e9775d73be24ab29cce955417bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Cours10 using Guid(c890e9775d73be24ab29cce955417bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f768b43926bf0b6ba104c4f8b27920') in 0.008230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.978632 seconds.
+  path: Assets/Dev II/Cours10/Prefab
+  artifactKey: Guid(a60eefa225372c3419b44868ded00ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Cours10/Prefab using Guid(a60eefa225372c3419b44868ded00ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1edd317520c5a29d38b82ef5b733b0b') in 0.002610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066447 seconds.
+  path: Assets/Dev II/Cours10/Prefab/Pipe(Clone)(Clone).prefab
+  artifactKey: Guid(e7e3f5a676b977f4595a6b678ec90aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Cours10/Prefab/Pipe(Clone)(Clone).prefab using Guid(e7e3f5a676b977f4595a6b678ec90aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae54837833c84e4466d19e1e520eb890') in 0.039576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.634600 seconds.
+  path: Assets/Dev II/Examen Pratique
+  artifactKey: Guid(3775a05e9b7a237479d815a281e85d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique using Guid(3775a05e9b7a237479d815a281e85d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49d2d77e1ca332bb0df2044bb1a6eab') in 0.002130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.967245 seconds.
+  path: Assets/Dev II/Examen Pratique/Scene
+  artifactKey: Guid(96e78dc402d9c834ca3087b1e2c05a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Scene using Guid(96e78dc402d9c834ca3087b1e2c05a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b99fc41d75cb9482aad3c7a1a1bfec1') in 0.001814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.122344 seconds.
+  path: Assets/Dev II/Examen Pratique/Scene/Examen_Profiles
+  artifactKey: Guid(c5cbf6f6bb7eb714585c05fa7afc7347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Scene/Examen_Profiles using Guid(c5cbf6f6bb7eb714585c05fa7afc7347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d1603c349aa6a5f41ea50f50feef5c') in 0.002288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056100 seconds.
+  path: Assets/Dev II/Examen Pratique/Scene/Examen_Profiles/PostProcess Profile.asset
+  artifactKey: Guid(b0b1784ab1694fa4f940d83202fb2311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Scene/Examen_Profiles/PostProcess Profile.asset using Guid(b0b1784ab1694fa4f940d83202fb2311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80583b29ed078b7db14d81409121252d') in 0.006456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.040948 seconds.
+  path: Assets/Dev II/Examen Pratique/Art
+  artifactKey: Guid(f9e924506b575874288e853f9f8b9082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art using Guid(f9e924506b575874288e853f9f8b9082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5f73398ee577e4157539815356a997') in 0.002372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.096026 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons.png
+  artifactKey: Guid(48c766ebcfa7c464580655db1d5045bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons.png using Guid(48c766ebcfa7c464580655db1d5045bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96523a2d1c2cbeb6c87e033e5f14790') in 0.083490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/New Material.mat
+  artifactKey: Guid(d0c35c22d8f22314db2b127c6c1b82e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/New Material.mat using Guid(d0c35c22d8f22314db2b127c6c1b82e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b7f382c6a5078bebacd39077206fa5') in 0.245822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.418312 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Animation
+  artifactKey: Guid(c759ff83c472271498ef29dd2c0eae36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Animation using Guid(c759ff83c472271498ef29dd2c0eae36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2f032bf8db0c6da8db82dd1f5a27c3') in 0.002570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.345650 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 1.png
+  artifactKey: Guid(55faf2e938d7e334a8d8d5dd389299a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 1.png using Guid(55faf2e938d7e334a8d8d5dd389299a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff671a9a85a6f78b43c74cb6429ecb8e') in 0.048304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.982296 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 2.png
+  artifactKey: Guid(6c2c0ac21edbfc74ea98d72a169e1f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 2.png using Guid(6c2c0ac21edbfc74ea98d72a169e1f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc00a01b4783d5fdc5b01a45ea68050') in 0.044074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.960779 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 3.png
+  artifactKey: Guid(fcd89a4f186c8ba42addd469518c1719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 3.png using Guid(fcd89a4f186c8ba42addd469518c1719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a2877b5cbd94e22c4934b0b9b160a7') in 0.046706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.784821 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 4.png
+  artifactKey: Guid(f093186eff2e75b41b8b68b5185ea5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 4.png using Guid(f093186eff2e75b41b8b68b5185ea5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5886408f0a2dd43bb7fca6ebf03e6f7f') in 0.057707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.037309 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 5.png
+  artifactKey: Guid(1a3b40524ac46e743a45f15d94983e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 5.png using Guid(1a3b40524ac46e743a45f15d94983e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b7db34dd48615cbb39b1328132a29d') in 0.043044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.584275 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 6.png
+  artifactKey: Guid(99a1dcd3d28cef9478728a704397a464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 6.png using Guid(99a1dcd3d28cef9478728a704397a464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cb04da974259220e600460092d5600') in 0.060060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.430773 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 7.png
+  artifactKey: Guid(a22ffc076c979c143b1d08f0341846b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 7.png using Guid(a22ffc076c979c143b1d08f0341846b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9801ee3186722f6ee0b15337788d680c') in 0.046185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.348797 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 8.png
+  artifactKey: Guid(985b3e42de990ab4a9fa9d9a05dbcc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 8.png using Guid(985b3e42de990ab4a9fa9d9a05dbcc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9be2491b39eeb5acdde8cf5651ccfbc') in 0.061446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.681402 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 1.png
+  artifactKey: Guid(55faf2e938d7e334a8d8d5dd389299a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 1.png using Guid(55faf2e938d7e334a8d8d5dd389299a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f2e1fb0b065df4b791ba84845d273b') in 0.047222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.887761 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 2.png
+  artifactKey: Guid(6c2c0ac21edbfc74ea98d72a169e1f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 2.png using Guid(6c2c0ac21edbfc74ea98d72a169e1f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2897dd7883ad08a34aeaa208d21d5ac2') in 0.052766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.625896 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 3.png
+  artifactKey: Guid(fcd89a4f186c8ba42addd469518c1719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 3.png using Guid(fcd89a4f186c8ba42addd469518c1719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9f3e9a61b5b76f6b8f7bb8fe06464b') in 0.046592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.260832 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 4.png
+  artifactKey: Guid(f093186eff2e75b41b8b68b5185ea5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 4.png using Guid(f093186eff2e75b41b8b68b5185ea5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998ae161a3d8e1796f4f5c3c02094d01') in 0.046479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.959676 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 5.png
+  artifactKey: Guid(1a3b40524ac46e743a45f15d94983e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 5.png using Guid(1a3b40524ac46e743a45f15d94983e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a116e989d899235cf551cd26d60393') in 0.050979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.356895 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 6.png
+  artifactKey: Guid(99a1dcd3d28cef9478728a704397a464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 6.png using Guid(99a1dcd3d28cef9478728a704397a464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9593bb0395a42e1e1756e169d2aa6546') in 0.042152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.985598 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 7.png
+  artifactKey: Guid(a22ffc076c979c143b1d08f0341846b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 7.png using Guid(a22ffc076c979c143b1d08f0341846b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8f718e44af9e6d89779efb2c223446') in 0.033721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.831425 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons 8.png
+  artifactKey: Guid(985b3e42de990ab4a9fa9d9a05dbcc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons 8.png using Guid(985b3e42de990ab4a9fa9d9a05dbcc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c1d9c1311e28e7771dbe902ee99ae0') in 0.046711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 137.720705 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons.png
+  artifactKey: Guid(48c766ebcfa7c464580655db1d5045bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons.png using Guid(48c766ebcfa7c464580655db1d5045bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0be551f88cf1e9e8627846bd68f6e6') in 0.027109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.838180 seconds.
+  path: Assets/Dev II/Examen Pratique/Art/Exam Icons.png
+  artifactKey: Guid(48c766ebcfa7c464580655db1d5045bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dev II/Examen Pratique/Art/Exam Icons.png using Guid(48c766ebcfa7c464580655db1d5045bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b50f791cf155508542495e8853ce4e4') in 0.022221 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006666 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\oubakhouche\Jeu2\jeu2\examen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oubakhouche\Jeu2\jeu2\examen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Domain Reload Profiling:
+	ReloadAssembly (944ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (692ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.7 MB). Loaded Objects now: 3608.
+Memory consumption went from 115.7 MB to 115.0 MB.
+Total: 3.342100 ms (FindLiveObjects: 0.329700 ms CreateObjectMapping: 0.265200 ms MarkObjects: 2.405600 ms  DeleteObjects: 0.340400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=10054 error=Une connexion existante a dû être fermée par l’hôte distant.
