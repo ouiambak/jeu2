@@ -1,13 +1,16 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Tooltiper : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler
+public class Tooltiper : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    public static Action<string> _onMouseOver;
-    [SerializeField] private string _TooltipString;
+    public static Action<string> _onMouseOver;  
+    private string _TooltipString;  
+
+    void Start()
+    {
+        _TooltipString = gameObject.name;  
+    }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -18,14 +21,14 @@ public class Tooltiper : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler
     {
         _onMouseOver?.Invoke("");
     }
-
     private void OnMouseEnter()
     {
         //dans l'objet faut un collider pour que l'unity le detecte a partir d'un raycast
         _onMouseOver?.Invoke(_TooltipString);
     }
-    private void OnMouseExit() {
-        
+    private void OnMouseExit()
+    {
+
         _onMouseOver?.Invoke("");
 
     }
