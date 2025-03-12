@@ -10,13 +10,13 @@ public class PorteController : MonoBehaviour
     private void Start()
     {
         scaleFerme = transform.localScale;
-        DalleTrigger.OnDallePress += GérerOuverture; 
-        Debug.Log($"{gameObject.name} écoute l'événement.");
+        DalleTrigger.OnDallePress += GererOuverture; 
+        Debug.Log($"{gameObject.name} Ecoute l'evenement.");
     }
 
     private void OnDestroy()
     {
-        DalleTrigger.OnDallePress -= GérerOuverture; 
+        DalleTrigger.OnDallePress -= GererOuverture; 
     }
 
     private void Update()
@@ -27,9 +27,9 @@ public class PorteController : MonoBehaviour
         Debug.Log($"{gameObject.name} Scale actuel : {transform.localScale}");
     }
 
-    private void GérerOuverture(bool ouvrir)
+    private void GererOuverture(bool ouvrir)
     {
         isOpening = ouvrir;
-        Debug.Log($"{gameObject.name} reçoit l'événement. Ouvrir : {ouvrir}");
+        Debug.Log($"{gameObject.name} recoit l'evenement. Ouvrir : {ouvrir}");
     }
 }
